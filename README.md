@@ -8,4 +8,4 @@ This Bash script may be executed on a terminal or by a task scheduler such as [c
 
 A detailed walk-though is available [here](https://kurtcms.org/networking-execute-if-process-is-missing/).
 
-![alt text](https://kurtcms.org/git/daemonc/daemonc-screenshot.png)
+<img src="https://kurtcms.org/git/daemonc/daemonc-screenshot.png" width="550">
