@@ -9,3 +9,48 @@ This Bash script may be executed on a terminal or by a task scheduler such as [c
 A detailed walk-though is available [here](https://kurtcms.org/networking-execute-if-process-is-missing/).
 
 <img src="https://kurtcms.org/git/daemonc/daemonc-screenshot.png" width="550">
+
+## Table of Content
+
+- [Getting Started](#getting-started)
+  - [Git Clone](#git-clone)
+  - [Permission](#permission)
+  - [Run](#run)
+
+## Getting Started
+
+Get started in three simple steps:
+
+1. [Download](#git-clone) a copy of the script;
+2. Provide the script with execute [permission](#permission);
+3. [Run](#run) the script manually.
+
+### Git Clone
+
+Download a copy of the script with `git clone`
+
+```shell
+$ git clone https://github.com/kurtcms/daemonc /app/
+```
+
+### Permission
+
+Provide the script with execute permission
+
+```shell
+$ chmod +x /app/daemonc
+```
+
+### Run
+
+The script expects an executable process and its corresponding argument(s) as arguments. Run the script with [`Bash`](https://github.com/python/cpython)
+
+```shell
+$ /app/daemonc iperf -s -D
+```
+
+And have the output of the supplied executable process returned, or have nothing returned if it is found in the current processes
+
+```
+Running Iperf Server as a daemon
+```
