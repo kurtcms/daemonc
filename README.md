@@ -1,4 +1,4 @@
-# Networking: Execute if Process is Missing
+# IP Networking: Execute if Process is Missing
 
 This Bash script may be executed on a terminal or by a task scheduler such as [cron](https://crontab.guru/) and it does the following:
 
