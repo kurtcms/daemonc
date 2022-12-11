@@ -1,6 +1,6 @@
 # IP Networking: Execute if Process is Missing
 
-This Bash script may be executed on a terminal or by a task scheduler such as [cron](https://crontab.guru/) and it does the following:
+This Bash script may be executed on a terminal or by a task scheduler such as [cron](https://linux.die.net/man/8/cron) and it does the following:
 
 1. Execute [ps](https://linux.die.net/man/1/ps) to print a snapshot of the current processes.
 2. Match the print with [grep](https://linux.die.net/man/1/grep) to see if the argument supplied is found in the current processes.
