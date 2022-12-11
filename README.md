@@ -41,7 +41,7 @@ $ chmod +x /app/daemonc/daemonc.sh
 
 ### Run
 
-The script expects an executable process and its corresponding argument(s) as arguments(s). Run the script with [Bash](https://github.com/gitGNU/gnu_bash).
+Run the script with an executable process and its corresponding argument(s) as arguments(s)
 
 ```shell
 $ /app/daemonc/daemonc.sh iperf -s -D
