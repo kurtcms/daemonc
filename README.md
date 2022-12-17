@@ -25,7 +25,7 @@ Get started in three simple steps:
 
 ### Git Clone
 
-Download a copy of the script with `git clone`
+Download a copy of the script with `git clone`.
 
 ```shell
 $ git clone https://github.com/kurtcms/daemonc /app/daemonc/
@@ -33,7 +33,7 @@ $ git clone https://github.com/kurtcms/daemonc /app/daemonc/
 
 ### Permission
 
-Provide the script with execute permission
+Provide the script with execute permission.
 
 ```shell
 $ chmod +x /app/daemonc/daemonc.sh
@@ -41,13 +41,13 @@ $ chmod +x /app/daemonc/daemonc.sh
 
 ### Run
 
-Run the script with an executable process and its corresponding argument(s) as arguments(s)
+Run the script with an executable process and its corresponding argument(s) as arguments(s).
 
 ```shell
 $ /app/daemonc/daemonc.sh iperf -s -D
 ```
 
-And have the output of the supplied executable process returned, or have nothing returned if it is found in the current processes
+And have the output of the supplied executable process returned, or have nothing returned if it is found in the current processes.
 
 ```
 Running Iperf Server as a daemon
